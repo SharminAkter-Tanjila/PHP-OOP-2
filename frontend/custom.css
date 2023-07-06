@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    /* background-color: #afa8cb; */
+    background-color: #e8e6f1;
+    position: relative;
+    margin: var(--header-height) 0 0 0;
+    padding: 0 0;
+    font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: var(--normal-font-size);
+    transition: 0.5s;
+  }
+
+.brand{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color:white;
+}
+.menu a{
+    color: white;
+    padding-left: 20px!important;
+    font-size: 18px;
+}
+.header a i{
+    font-size: 40px;
+    color: white;
+}
+
+/* SLider */
+.slider-area{
+    background-color: #f3f3f5;
+}
+.container.slider {
+  margin: 50px auto;
+}
+
+.carousel.carousel-dark.slide {
+  height: 450px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  height: 450px;
+}
+
+.carousel-item.active {
+  height: 450px;
+}
+
+.carousel-item img {
+  height: 450px;
+  width: 90%;
+}
+.dark-button{
+    background-color: #554f6c;
+    color: whitesmoke;
+}
+/*call to action*/
+.custom-container {
+  background-color: #afa5d9 !important;
+  box-shadow: 0 10px 20px rgba(175, 147, 179, 0.2);
+  /* margin: 0 auto; */
+}
+
+.property-area{
+    background-color: #f3f3f5;
+}
+/* card */
+.card {
+  /* width: 30%; */
+  background-color:#eae8f2;
+  /* background-color:#8e8e8e; */
+}
+
+ .card-img-top {
+  /* height: 200px; */
+  object-fit: cover;
+  margin-top: 3px;
+} 
+
+.block-wrap {
+  padding: 20px !important;
+  margin-top: 15px !important;
+}
+
+.block-title-wrap {
+  border-bottom: 1px solid #dce0e0;
+  margin-bottom: 15px !important;
+  padding-bottom: 15px !important;
+}
+/* FAQ */
+.faq-area{
+    background-color: #f3f3f5;
+}
